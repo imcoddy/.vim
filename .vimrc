@@ -15,8 +15,8 @@ let g:AutoComplPop_Behavior = {
 \}
 
 let g:vimwiki_use_mouse = 1
-let g:vimwiki_list = [{'path': '/home/imcoddy/Dropbox/Public/Wiki/',
-\ 'path_html': '/home/imcoddy/Dropbox/Public/Wiki/html/',
-\ 'html_header': '/home/imcoddy/Dropbox/Public/Wiki/template/header.tpl',}]
+let g:vimwiki_list = [{'path': '/home/imcoddy/Dropbox/Wiki/',
+\ 'path_html': '/home/imcoddy/Dropbox/Wiki/html/',
+\ 'html_header': '/home/imcoddy/Dropbox/Wiki/template/header.tpl',}]
 
 map <F4> :VimwikiAll2HTML<cr>
