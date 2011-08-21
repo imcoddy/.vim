@@ -19,3 +19,4 @@ let g:vimwiki_list = [{'path': '/home/imcoddy/Dropbox/Public/Wiki/',
 \ 'path_html': '/home/imcoddy/Dropbox/Public/Wiki/html/',
 \ 'html_header': '/home/imcoddy/Dropbox/Public/Wiki/template/header.tpl',}]
 
+map <F4> :VimwikiAll2HTML<cr>
