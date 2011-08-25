@@ -40,7 +40,7 @@ set hlsearch "Highlight search things
 set incsearch "Make search act like search in modern browsers
 set magic "Set magic on, for regular expressions
 set showmatch "Show matching bracets when text indicator is over them
-
+set ruler "Always show current position
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -52,11 +52,14 @@ syntax enable "Enable syntax highlight
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set ts=2
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set autoindent
 set smartindent
 set wrap "Wrap lines
+set lbr
+set tw=500
 
 " Generate coffeescript into js
 autocmd BufWritePost,FileWritePost *.coffee :silent !coffee -c <afile>
