@@ -60,6 +60,8 @@ set smartindent
 set wrap "Wrap lines
 set lbr
 set tw=500
+set list
+set listchars=tab:>-,trail:-
 
 " Generate coffeescript into js
 autocmd BufWritePost,FileWritePost *.coffee :silent !coffee -c <afile>
