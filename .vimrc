@@ -63,6 +63,9 @@ set tw=500
 set list
 set listchars=tab:>-,trail:-
 
+:nmap <F8> :tabnext<CR>
+
+
 " Generate coffeescript into js
 autocmd BufWritePost,FileWritePost *.coffee :silent !coffee -c <afile>
 
