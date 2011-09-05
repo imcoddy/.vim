@@ -23,6 +23,7 @@ filetype indent on
 
 " Set to auto read when a file is changed from the outside
 set autoread
+autocmd! bufwritepost .vimrc source %
 
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
@@ -60,8 +61,8 @@ set smartindent
 set wrap "Wrap lines
 set lbr
 set tw=500
-set list
-set listchars=tab:>-,trail:-
+
+:nmap <F8> :tabnext<CR>
 
 " Generate coffeescript into js
 autocmd BufWritePost,FileWritePost *.coffee :silent !coffee -c <afile>
