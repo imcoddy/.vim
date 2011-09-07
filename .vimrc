@@ -35,7 +35,7 @@ let g:mapleader = "\\"
 " Set 7 lines to the curors - when moving vertical..
 set so=7
 set number "show line number
-set ignorecase "Ignore case when searching
+set ignorecase smartcase "Ignore case when searching
 set hlsearch "Highlight search things
 set incsearch "Make search act like search in modern browsers
 set magic "Set magic on, for regular expressions
