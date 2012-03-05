@@ -70,6 +70,10 @@ set tw=500
 set list
 set listchars=tab:>-,trail:-
 
+" Set tab complete
+set wildmenu
+set wildmode=longest:full
+
 " Generate coffeescript into js
 autocmd BufWritePost,FileWritePost *.coffee :silent !coffee -c <afile>
 
